@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:21:52 +0530] "GET /joveo/api/info HTTP/1.1" 200 102 http-bio-7080-exec-1 94
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:21:52 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-7080-exec-3 0
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:23:13 +0530] "GET /joveo/api/info HTTP/1.1" 200 102 http-bio-7080-exec-5 3
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:27:11 +0530] "POST /joveo/api/info HTTP/1.1" 415 1092 http-bio-7080-exec-7 9
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:27:30 +0530] "POST /joveo/api/info HTTP/1.1" 200 55 http-bio-7080-exec-8 8
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:27:39 +0530] "GET /joveo/api/info HTTP/1.1" 200 102 http-bio-7080-exec-9 1
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:28:01 +0530] "POST /joveo/api/info HTTP/1.1" 200 55 http-bio-7080-exec-10 2
+0:0:0:0:0:0:0:1 - - [27/Aug/2017:23:28:05 +0530] "GET /joveo/api/info HTTP/1.1" 200 147 http-bio-7080-exec-10 2
