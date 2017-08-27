@@ -9,18 +9,18 @@ public class JobDao {
 	static HashMap<String, Job> jobsMap = new HashMap<String, Job>();
 
 	public JobDao() {
-//		Job job1 = new Job();
-//		job1.setId("1");
-//		job1.setStatus(JobStatus.RUNNING);
-//		job1.setName("job 1");
-//
-//		Job job2 = new Job();
-//		job2.setId("2");
-//		job2.setStatus(JobStatus.RUNNING);
-//		job2.setName("job 2");
-//
-//		jobsMap.put("1", job1);
-//		jobsMap.put("2", job2);
+		// Job job1 = new Job();
+		// job1.setId("1");
+		// job1.setStatus(JobStatus.RUNNING);
+		// job1.setName("job 1");
+		//
+		// Job job2 = new Job();
+		// job2.setId("2");
+		// job2.setStatus(JobStatus.RUNNING);
+		// job2.setName("job 2");
+		//
+		// jobsMap.put("1", job1);
+		// jobsMap.put("2", job2);
 	}
 
 	public List<Job> getAllJobs() {
@@ -42,6 +42,7 @@ public class JobDao {
 	public Job updateJob(Job job) {
 		if (jobsMap.get(job.getId()) != null) {
 			jobsMap.get(job.getId()).setName(job.getName());
+			jobsMap.get(job.getId()).setStatus(job.getStatus());
 		} else {
 			jobsMap.put(job.getId(), job);
 		}
